@@ -1,0 +1,16 @@
+{
+  "name": "treinaweb/php-oo-projeto",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Nathan Liyodi Nariai",
+      "email": "nathan.nariai@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
