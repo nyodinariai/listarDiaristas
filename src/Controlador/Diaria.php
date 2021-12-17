@@ -6,8 +6,12 @@ namespace App\Controlador;
 
 use App\Modelo\Diaria as ModeloDiaria;
 
-class Diaria
-{
+class Diaria{
+
+    /**
+     * funcao lista todas as diarias
+     * @return void
+     */
     public function listar(){
         
         $diarias = ModeloDiaria::obterTodas();
